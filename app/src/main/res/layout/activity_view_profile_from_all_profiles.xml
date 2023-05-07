@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ViewProfileFromAllProfiles">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/profile_details"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/profile_image_from_all_profiles"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/name"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/name_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/surname"
+            android:textSize="20sp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/surname_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/year_of_enrollment"
+            android:textSize="20sp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/year_of_enrollment_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/year_of_graduation"
+            android:textSize="20sp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/year_of_graduation_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/email"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/email_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/bachelors"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/bachelors_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/masters"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/masters_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/doctorate"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/doctorate_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/country"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/country_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/city"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/city_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/company"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/company_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/social_media_link1"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/social_media_link1_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/social_media_link2"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/social_media_link2_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="@string/phone_number"
+            android:textSize="20sp"
+            />
+
+
+        <TextView
+            android:id="@+id/phone_number_from_all_profiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

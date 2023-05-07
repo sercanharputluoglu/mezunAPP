@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "471303327983",
+    "project_id": "mini-mezun-ef1fb",
+    "storage_bucket": "mini-mezun-ef1fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471303327983:android:4df16fc843dfc8067f0b1a",
+        "android_client_info": {
+          "package_name": "com.example.minimezun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471303327983-nr7t6edg368790kq5rlav74o8ndl7bp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA72gLe2Z5VzfCuwbXeSqHWIVtKLTfCDUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471303327983-nr7t6edg368790kq5rlav74o8ndl7bp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
